@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class Jenkinspipeline2Application {
+public class JenkinsPipeline2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Jenkinspipeline2Application.class, args);
+        SpringApplication.run(JenkinsPipeline2Application.class, args);
     }
 
     @GetMapping
